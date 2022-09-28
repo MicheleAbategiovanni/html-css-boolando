@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    position: static;
+}
+
+main {
+    margin-top: 120px;
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    height: 100px;
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 105, 0);
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.container-gender {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.container-logo {
+    display: flex;
+    height: 30px;
+}
+
+.container-gender>* {
+    text-decoration: none;
+    color: white;
+}
+
+.container-icon-nav>* {
+    color: white;
+}
+
+.container-main {
+    width: 920px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.container-card {
+    flex-basis: 30%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.font-brand {
+    font-size: .9rem;
+}
+
+.font-model {
+    font-weight: bold;
+}
+
+.discounted-price {
+    font-size: .9rem;
+    color: red;
+}
+
+.old-price {
+    font-size: .9rem;
+    text-decoration: line-through;
+}
+
+.card {
+    position: static;
+}
+
+.sales {
+    position: absolute;
+    bottom: 100px;
+}
+
+.price-sales {
+    background-color: red;
+    color: white;
+    padding: 1px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.sustainability {
+    background-color: green;
+    color: white;
+    padding: 1px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.wishlist {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.container-footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 920px;
+    padding-top: 30px;
+}
+
+.icon-follow>*,
+.link-footer>* {
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+
+.icon-follow,
+.link-footer {
+    padding-top: 10px;
+}
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.container-card:hover .img-hover {
+    visibility: visible;
+}
+
+.wishlist:hover {
+    color: red;
+}
