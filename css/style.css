@@ -4,3 +4,40 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
+nav{
+    position: static;
+}
+
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 105, 0);
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+.container-gender{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.container-logo{
+    display: flex;
+    height: 30px;
+}
+
+.container-gender >* {
+    text-decoration: none;
+    color: white;
+}
+
+.container-icon-nav >*{
+    color: white;
+}
