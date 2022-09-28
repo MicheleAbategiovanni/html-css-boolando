@@ -12,6 +12,10 @@ nav{
     position: static;
 }
 
+main{
+    margin-top: 120px;
+}
+
 .container-nav{
     display: flex;
     flex-direction: row;
@@ -55,3 +59,8 @@ nav{
 .container-card{
     flex-basis: 30%;
 }
+
+.font-brand{
+    font-size: .9rem;
+}
+
