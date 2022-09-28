@@ -21,6 +21,7 @@ nav{
     height: 70px;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 .container-gender{
@@ -40,4 +41,17 @@ nav{
 
 .container-icon-nav >*{
     color: white;
+}
+
+.container-main{
+    width: 920px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container-card{
+    flex-basis: 30%;
 }
