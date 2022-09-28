@@ -65,6 +65,7 @@ footer{
 .container-card{
     flex-basis: 30%;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .font-brand{
