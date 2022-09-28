@@ -89,7 +89,7 @@ main{
     bottom: 100px;
 }
 
-.sales :first-child{
+.price-sales{
     background-color: red;
     color: white;
     padding: 1px 5px;
@@ -97,7 +97,7 @@ main{
     text-align: center;
 }
 
-.sales :last-child{
+.sustainability{
     background-color: green;
     color: white;
     padding: 1px 5px;
