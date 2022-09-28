@@ -141,3 +141,14 @@ footer{
 .link-footer{
     padding-top: 10px;
 }
+
+.img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.container-card:hover .img-hover{
+    visibility: visible;
+}
