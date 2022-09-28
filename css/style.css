@@ -26,6 +26,7 @@ main{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .container-gender{
@@ -64,3 +65,41 @@ main{
     font-size: .9rem;
 }
 
+.font-model{
+    font-weight: bold;
+}
+
+.discounted-price{
+    font-size: .9rem;
+    color: red;
+}
+
+.old-price{
+    font-size: .9rem;
+    text-decoration: line-through;
+}
+
+.card{
+    position: static;
+}
+
+.sales{
+    position: absolute;
+    bottom: 30px;
+}
+
+.sales :first-child{
+    background-color: red;
+    color: white;
+    padding: 1px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.sales :last-child{
+    background-color: green;
+    color: white;
+    padding: 1px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
